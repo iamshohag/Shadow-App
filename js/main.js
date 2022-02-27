@@ -70,4 +70,9 @@ $(document).ready(function(){
         }
     }
     });
+    //counter up plugin
+    $('.counter').counterUp({
+    delay: 20,
+    time: 3000,
+    });
 });
